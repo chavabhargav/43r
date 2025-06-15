@@ -13,8 +13,6 @@ h1{
     text-decoration: underline;
     font-size: 27px;
     margin-top: 15px;
-    
-    
 }
 .main{
     padding: 0;
@@ -54,15 +52,11 @@ h3,p{
         margin-top: 25px;
     }
     .box{
-        width: 80%;
-        background-color: green;
+        width: 84%;
         height: auto;
-
     }
     img{
         width: 100%;
-       
-        
     }
     h3{
         font-size: 18px;
