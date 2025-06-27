@@ -76,7 +76,7 @@
 .button4:hover~.playbox{
     transform: skew(50deg);
 }
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   .box{
     width:100%;
   
@@ -92,7 +92,7 @@
     height: 100%;
 }
 .playbox{
-    margin:100px 100px;
+    margin:100px auto;
     height: 200px;
     width: 200px;
 }
