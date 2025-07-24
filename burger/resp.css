@@ -1,0 +1,428 @@
+@media screen and (max-width: 500px) {
+   
+    .nav{
+        width: 100vw;
+        position: fixed;
+        top: 0;
+        
+    }
+    .navin{
+        padding: 0 20px;
+        width: 100vw;
+        justify-content: space-between;
+        border-radius: 0;
+    }
+    .navin a{
+        display: none;
+    }
+    .navlogo{
+        margin-left: 0px;
+    }
+    .navin .Menu {
+    display: block;
+}
+.navicons{
+    width: 70px;
+}
+.navicons i{
+    font-size: 23px;
+}
+    /* .respnav{
+        display:block;
+        position: fixed;
+        top:0;
+        z-index: 1000;
+        width: 100vw;
+    }
+    .respin{
+        backdrop-filter: blur(5px);
+     background-color: rgb(0, 0, 0,0.8);
+     border-radius: 50px;
+     padding: 0 15px;
+    } */
+    /* .respleft{
+        margin-left: 30px;
+    } */
+.main{
+    background-color: blue;
+    height: 70vh;
+}
+    .headbox{
+        min-width: 100px;
+        width: 350px;
+        /* border: 2px solid white; */
+        height: 70px;
+        margin-top: 110px;
+    }
+    .lines{
+        /* border: 2px solid white; */
+    }
+    .head{
+        font-size: 35px;
+        /* border: 2px solid white; */
+        display: flex;
+        align-items: center;
+        transform: scaleY(1.07);
+    
+    }
+   .burghead{
+    font-size: 5rem;
+    margin-top: -40px;
+   }
+   .bblack{
+    width: 100vw;
+    /* border: 2px solid white; */
+    margin-top: -110px;
+   }
+   .bblack img{
+    width: 100%;
+    scale: 1.2;
+    /* margin-top: 10px; */
+   }
+   .main button{
+    height: 55px;
+    width: 180px;
+    top: 450px;
+    font-size: 15px;
+   }
+
+
+
+
+
+
+    .aboutus{
+        margin-top: 30px;
+        /* border: 2px solid red; */
+        height: auto;
+    }
+    .aboutin{
+        /* border: 2px solid blue; */
+        flex-direction: column-reverse;
+    }
+    .imgdiv{
+        width: 90%;
+        height: 450px;
+        align-self: center;
+    }
+    .aboutright{
+        padding-top: 50px;
+        width: 100%;
+        padding-right: 20px;
+    }
+    .aboutright .two{
+        font-size: 40px;
+        letter-spacing: 1px;
+        line-height: 44px;
+    }
+    .aboutright .three{
+    margin-top: 50px;
+    line-height: 30px;
+    margin-right: 20px;
+    color: rgb(81, 80, 80);
+    font-size: 18px;
+    font-family: jost2;
+}
+.aboutright .four{
+    margin-top: 30px;
+    color:  rgb(81, 80, 80);
+    /* text-transform: bold; */
+    font-size: 19px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    .special{
+        /* height: 200vh; */
+    font-size: 45px;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+    .offers{
+        height: auto;
+        margin-top: 20px;
+        /* border: 2px solid red; */
+    }
+    .offerin{
+        width: 80%;
+        /* border: 2px solid blue; */
+        flex-direction: column;
+        align-items: center;
+    }
+     .offerleft{
+        height: 800px;
+        width: 90%;
+        /* border: 2px solid black; */
+        padding: 0;
+        
+    }
+    .calories{
+        margin-top: 20px;
+        flex-wrap: wrap;
+        row-gap:2px ;
+
+    }
+    .matter{
+        line-height: 35px;
+    }
+    
+    .offerimg{
+    /* border: 2px solid red; */
+    width: 85%;
+    height: 200px;
+    align-self: center;
+    justify-self: center;
+}
+.offerright{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 1500px;
+}
+.offertop{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.offerbottom{
+      flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.item{
+    height: 350px;
+    width: 90%;
+    margin-bottom: 20px;
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .banner{
+        /* border: 2px solid red; */
+        height: auto;
+        margin-bottom: 100px;
+    }
+    .both{
+        /* border: 2px solid blue; */
+        flex-direction: column;
+    }
+    .upper{
+        height: 850px;
+    }
+    .imgpart{
+        /* border: 10px solid darkorange; */
+        width: 100%;
+    }
+    .imgpart1{
+        height: 550px;
+    }
+    .imgpart2{
+        height: 550px;
+    }
+    .datapart{
+        /* border: 2px solid yellow; */
+        width: 100%;
+    }
+    .datapart1 {
+        height: 650px;
+    }
+    .datapart2{
+        /* border: 2px solid violet; */
+        height: 430px;
+    }
+    .datain{
+        height: 100%;
+        /* border: 2px solid white; */
+        width: 100%;
+        padding: 0 30px;
+        padding-top: 70px;
+    }
+    .datain h3{
+        font-size: 38px;
+        line-height: 43px;
+        margin-bottom: 45px;
+    }
+    .datain span{
+        margin-bottom: 10px;
+    }
+    .datain2 h3{
+        letter-spacing: 1px;
+    }
+    .datain2 p{
+        margin-top: -150px;
+    }
+    .lower{
+        flex-direction: column-reverse;
+    }
+    .imgdiv1 {
+        background-size: contain;
+    }
+    .imgdiv2{
+        background-size: contain;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .catalog-head{
+        font-size: 50px;
+        margin-left: 30px;
+    }
+    .catalog-box{
+        height: 1900px;
+        /* border: 2px solid red; */
+    }
+    .catalog-in{
+        width: 95%;
+        /* border: 2px solid blue; */
+        flex-direction: column;
+    }
+    .cat{
+        width: 100%;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+       
+        padding-right: 10px;
+    }
+    .cat h3{
+        margin-left: 35px;
+    }
+    .cat p{
+        margin-left: 35px;
+    }
+    .pcart h4{
+        margin-left: 35px;
+    }
+
+
+
+
+    .testimonials{
+        margin-top: 100px;
+        flex-direction: column;
+        /* border: 2px solid red; */
+        height: 110vh;
+        align-items:center;
+
+    }
+    .test{
+        /* border: 2px solid blue; */
+        width: 100%;
+    }
+    .testleft{
+       
+        height: 1100px;
+        width: 90%;
+    }
+    .testright{
+        width: 80%;
+        align-items: start;
+    }
+    .testmatter{
+        width: 100%;
+    }
+    .testmatter h6{
+        margin-top: 50px;
+    }
+    .testmatter h3{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .nine{
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    
+
+
+
+
+
+
+
+
+    .filler{
+        margin-top: 100px;
+        flex-direction: column;
+        /* border: 2px solid red; */
+        height: auto;
+    }
+    .f{
+        /* border: 2px solid red; */
+        width: 100%;
+        height: 430px;
+        margin-bottom: 15px;
+    }
+
+    .contact{
+        flex-direction: column;
+        height: auto;
+        /* border: 2px solid red; */
+        margin-top: 150px;
+        /* align-items: center; */
+    }
+    .contactin{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .c{
+        width: 70%;
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        align-items: center;
+        /* border: 2px solid red; */
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .c1{
+        padding-right: 0;
+    }
+    .c3 input{
+        width: 250px;
+    }
+    .c3 button{
+        width: 250px;
+    }
+    .map{
+        margin-top: 40px;
+    }
+}
+
+
+
+
+
+
