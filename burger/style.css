@@ -472,8 +472,12 @@
     background-color: rgb(251, 248, 246);
     padding: 20px 0;
     border-radius: 20px;
+    transition: all 0.3s ease-in-out;
     
     
+}
+.item:hover{
+    transform: scale(1.05);
 }
 .item .iname{
     width: 150px;
@@ -680,6 +684,10 @@
     padding-top: 30px;
     padding-left: 15px;
     border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+}
+.cat:hover{
+    transform: scale(1.05);
 }
 .bbox{
     width: 220px;
