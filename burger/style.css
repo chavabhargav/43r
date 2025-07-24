@@ -44,9 +44,20 @@
     backdrop-filter: blur(5px);
      background-color: rgb(0, 0, 0,0.8);
      /* margin-left: 30px; */
+     animation: navani 1.5s ease-in-out ;
     
     
 
+}
+@keyframes navani{
+    0%{
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
 .navlogo{
     height: 80%;
@@ -218,7 +229,7 @@
 @keyframes but{
     0%{
         transform: translateY(150px);
-        opacity: 0.4;
+        opacity: 0;
     }
     100%{
         transform: translateY(0px);
